@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Resume</title>
+    <style>
+        body {
+            background-color: rgb(247, 208, 208);
+            overflow: initial;
+
+        }
+
+        .heading {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 70px;
+            font-family: arial;
+            margin-bottom: 30px;
+        }
+
+        .type {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .card {
+            width: 600px;
+            height: 300px;
+            margin-bottom: 15px;
+            box-shadow: 4px 4px 8px gray;
+            border: none;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+
+        }
+
+        @media screen and (max-width:500px)  {
+            body {
+                background-image: radial-gradient(red, orange);
+                font-weight: bold;
+            }
+
+            .card+div {
+                margin: 5px;
+            }
+
+            .card {
+                width: 100%;
+                height: 400px;
+                margin: 10px;
+                grid-template-columns: none;
+
+            }
+
+            .mb-4 {
+                margin-bottom: 2.5rem;
+            }
+
+            div.card {
+                margin: 0px;
+            }
+            .card:hover {
+            transform: scale(none);
+            transition-duration: 0s;
+        }
+
+        .card {
+            transform: scale();
+            transition-duration: 0s;
+        }
+
+            .card1 {
+                width: 100%;
+                height: 400px;
+            }
+
+            .card div {
+                margin: 3px;
+            }
+        }
+
+        .card div {
+            margin: 30px;
+        }
+
+        .card h4 {
+            color: blue;
+        }
+
+        .card1 {
+            width: 600px;
+            height: 450px;
+            margin-bottom: 15px;
+            box-shadow: 4px 4px 8px gray;
+            background-color: white;
+            color: black;
+            padding: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+        }
+
+        .card {
+            transform: scale(1.1);
+            transition-duration: 1s;
+        }
+
+        .card1 p {
+            font-size: 20px;
+        }
+
+        .container {
+            background-color: rgb(192, 192, 192);
+            width: 100%;
+            height: 25px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+
+        .skill {
+
+            color: rgb(190, 26, 26);
+
+            text-align: right;
+            font-size: 13px;
+            border-radius: 15px;
+            height: 25px;
+            margin-bottom: 5px;
+        }
+
+        .html {
+            width: 80%;
+            background-color: rgb(66, 243, 12);
+        }
+
+        .css {
+            width: 70%;
+            background-color: rgb(81, 11, 244);
+        }
+
+        .js {
+            width: 50%;
+            background-color: rgb(11, 182, 224);
+        }
+
+        .md {
+            width: 80%;
+            background-color: rgb(229, 24, 24);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <span class="bi bi-square-fill" style="color: blue;"></span><span class="ms-2">Resume</span>
+    </div>
+
+    <div>
+        <div class="type">
+
+            <div>
+                <h1 class="mb-4">Experience</h1>
+                <div class="card">
+
+                    <div>
+                        <h4> 2019 - Present</h4>
+                        <font size="4">JOB POSITION</font>
+                        <p>Company Name</p>
+                        <p>Company Location</p>
+                    </div>
+                    <div>
+                        <p>I'm a para. Click here to add your own text and edit me. It’s easy. Just click “Edit
+                            Text” or double click me to add your own content and make changes to the font.
+
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h4>2017 - 2019</h4>
+                        <font size="4">JOB POSITION</font>
+                        <p>Company Name</p>
+                        <p>Company Location</p>
+                    </div>
+                    <div>
+                        <p>I'm a para. Click here to add your own text and edit me. It’s easy. Just click “Edit
+                            Text” or double click me to add your own content and make changes to the font.
+
+
+
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="type">
+
+                <div>
+                    <h1 class="mb-4"> Education</h1>
+                    <div class="card">
+
+                        <div>
+                            <h4> 2019 - Present</h4>
+                            <font size="4">JOB POSITION</font>
+                            <p>Company Name</p>
+                            <p>Company Location</p>
+                        </div>
+                        <div>
+                            <p>I'm a para. Click here to add your own text and edit me. It’s easy. Just click “Edit
+                                Text” or double click me to add your own content and make changes to the font.
+
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h4>2017 - 2019</h4>
+                            <font size="4">JOB POSITION</font>
+                            <p>Company Name</p>
+                            <p>Company Location</p>
+                        </div>
+                        <div>
+                            <p>I'm a para. Click here to add your own text and edit me. It’s easy. Just click “Edit
+                                Text” or double click me to add your own content and make changes to the font.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="type">
+                <div class="myskill">
+                    <h1 class="mb-4"> My Skills</h1>
+                    <div class="card1">
+                        <p class="m-4">HTML</p>
+                        <div class="container">
+                            <div class="skill html">80%</div>
+                        </div>
+
+                        <p class="m-4">CSS</p>
+                        <div class="container">
+                            <div class="skill css">70%</div>
+                        </div>
+
+                        <p class="m-4">JAVASCRIPT</p>
+                        <div class="container">
+                            <div class="skill js">50%</div>
+                        </div>
+
+                        <p class="m-4">MANGO DB</p>
+
+                        <div class="container">
+                            <div class="skill md">80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            gurunath tangawar
+</body>
+
+</html>
